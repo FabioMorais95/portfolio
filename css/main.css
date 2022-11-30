@@ -27,9 +27,16 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
+}
+.card4 > a, .card5 > a, .card6 > a{
+    color: var(--verde);
 }
 .card6{
     margin-bottom: 1rem;
+}
+.card4{
+    color: #FC575E;
 }
 a{
     text-decoration: none;
