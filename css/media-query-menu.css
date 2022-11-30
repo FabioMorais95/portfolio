@@ -1,5 +1,5 @@
 @media(min-width: 769px){
-    .links > a:nth-child(1){
+    .links > .cardProject{
         display: none;
     }
     header{
@@ -12,8 +12,9 @@
         align-items: center;
     }
     .welcome{
-        margin-top: 1.5rem;
+        display: block;
         color: var(--azul-escuro);
+        line-height: 1rem;
     }
     
     .links{
@@ -46,6 +47,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1rem;
+        
     }
     .card-contents{
         width: 30%;
@@ -54,5 +56,17 @@
     .menu{
         display: none;
     }
-
+    
+    
+    .card1, .card2, .card3, .card4, .card5, .card6{
+        border: 1px solid transparent;
+        transition: .3s;
+        font-style: italic;
+    }
+    .card1:hover,.card2:hover,.card3:hover, .card4:hover, .card5:hover, .card6:hover{
+        border: 1px solid var(--branco);
+        transform: translate(5px, -5px);
+        transition: .2s;
+    }
+    
 }
