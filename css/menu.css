@@ -9,6 +9,15 @@ header{
     align-items: center;
     transition: .5s;
     text-align: center;
+    animation: backInLeft;
+    animation-duration: .3s;
+}
+.social-media{
+    margin-left: .5rem;
+}
+.nome{
+    border: 1px solid red;
+    display: flex;
 }
 header > p{
     font-size: 1.6rem;
@@ -64,4 +73,8 @@ header > p{
     border: 2px solid var(--azul-escuro);
     border-radius: 10px;
     transition: .2s;
+}
+
+.welcome2{
+    display: none;
 }
