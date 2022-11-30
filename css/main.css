@@ -1,0 +1,30 @@
+main{
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.card-contents{
+    width: 80vw;
+    min-height: 29vh;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 5px black;
+    background-image: linear-gradient(to right, var(--azul-escuro), var(--azul-claro));
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
