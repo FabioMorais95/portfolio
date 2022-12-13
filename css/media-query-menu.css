@@ -11,6 +11,9 @@
         justify-content: center;
         align-items: center;
     }
+    #watch{
+        display: block;
+    }
     .welcome{
         display: block;
         color: var(--azul-escuro);
