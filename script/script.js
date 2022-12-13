@@ -1,6 +1,8 @@
 const btnProject = document.querySelector('#cardProject').addEventListener('click', showProjects)
 const btnTheme = document.querySelector('#theme').addEventListener('click', changeTheme)
 const hamburguer = document.querySelector('.menu').addEventListener('click', menu)
+
+
 function showProjects(){
     const header = document.querySelector('header')
     header.style.display = 'none'
@@ -16,3 +18,17 @@ function menu(){
     const header = document.querySelector('header')  
     header.style.display = 'flex'
 }
+setInterval(()=>{
+    const p = document.querySelector('#watch')
+    let time = new Date()
+    let hours = time.getHours()
+    let minutes = time.getMinutes()
+    let seconds = time.getSeconds()
+    if(seconds < 10){
+        seconds = `0${seconds}`
+    }
+    if(hours < 10){
+        hours = `0${hours}`
+    }
+    p.innerHTML = `${hours}:${minutes}:${seconds}`
+})

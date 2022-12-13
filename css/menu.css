@@ -12,6 +12,9 @@ header{
     animation: backInLeft;
     animation-duration: .3s;
 }
+#watch{
+    display: none;
+}
 .social-media{
     margin-left: .5rem;
 }
