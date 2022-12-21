@@ -29,7 +29,7 @@ setInterval(()=>{
         hours = `0${hours}`
     }
     if(minutes < 10){
-        second = `0${minutes}`
+        minutes = `0${minutes}`
     }
     if(seconds < 10){
         seconds = `0${seconds}`
