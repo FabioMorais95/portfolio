@@ -19,7 +19,6 @@ header{
     margin-left: .5rem;
 }
 .nome{
-    border: 1px solid red;
     display: flex;
 }
 header > p{
