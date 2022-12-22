@@ -12,6 +12,9 @@ header{
     animation: backInLeft;
     animation-duration: .3s;
 }
+#aboutProjects{
+    display: none;
+}
 #watch{
     display: none;
 }
